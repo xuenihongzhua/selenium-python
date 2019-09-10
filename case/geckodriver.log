@@ -1,0 +1,266 @@
+1564561069472	geckodriver	INFO	Listening on 127.0.0.1:50164
+1564561072480	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.zbpe32ZT23Ja
+1564561072494	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564561072521	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50172
+1564561074012	Marionette	INFO	Listening on port 50172
+1564561143367	addons.productaddons	WARN	File download failed: 0x80004004
+1564561143474	addons.productaddons	WARN	File download failed: 0x80040111
+1564642921950	geckodriver	INFO	Listening on 127.0.0.1:54154
+1564642925086	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.OLoCkQOTiXee
+1564642925112	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564642925145	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54162
+1564642926409	Marionette	INFO	Listening on port 54162
+1564642929947	geckodriver	INFO	Listening on 127.0.0.1:54178
+1564642932947	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.ipp1e7u6gbTz
+1564642932963	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564642932991	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54209
+1564642934220	Marionette	INFO	Listening on port 54209
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browser.getBrowserForTab is not a function
+Full stack: BrowserObj.prototype.hasRemotenessChange@chrome://marionette/content/driver.js:3243:25
+BrowserObj.prototype.executeWhenReady@chrome://marionette/content/driver.js:3274:7
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:231:5
+send/proxy<@chrome://marionette/content/proxy.js:150:7
+send@chrome://marionette/content/proxy.js:111:17
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:28:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1927:31
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:384:16
+TaskImpl_run@resource://gre/modules/Task.jsm:323:13
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browser.getBrowserForTab is not a function
+Full stack: BrowserObj.prototype.hasRemotenessChange@chrome://marionette/content/driver.js:3243:25
+BrowserObj.prototype.executeWhenReady@chrome://marionette/content/driver.js:3274:7
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:231:5
+send/proxy<@chrome://marionette/content/proxy.js:150:7
+send@chrome://marionette/content/proxy.js:111:17
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:28:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1927:31
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:384:16
+TaskImpl_run@resource://gre/modules/Task.jsm:323:13
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.browser.getBrowserForTab is not a function
+Full stack: BrowserObj.prototype.hasRemotenessChange@chrome://marionette/content/driver.js:3243:25
+BrowserObj.prototype.executeWhenReady@chrome://marionette/content/driver.js:3274:7
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:231:5
+send/proxy<@chrome://marionette/content/proxy.js:150:7
+send@chrome://marionette/content/proxy.js:111:17
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:28:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1927:31
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:384:16
+TaskImpl_run@resource://gre/modules/Task.jsm:323:13
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: this.browser.getBrowserForTab is not a function
+BrowserObj.prototype.hasRemotenessChange@chrome://marionette/content/driver.js:3243:25
+BrowserObj.prototype.executeWhenReady@chrome://marionette/content/driver.js:3274:7
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:231:5
+send/proxy<@chrome://marionette/content/proxy.js:150:7
+send@chrome://marionette/content/proxy.js:111:17
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:28:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1927:31
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:384:16
+TaskImpl_run@resource://gre/modules/Task.jsm:323:13
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1564642980839	geckodriver	INFO	Listening on 127.0.0.1:54307
+1564642983860	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.KpzqbVxz2KOr
+1564642983884	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564642983912	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54315
+1564642985015	Marionette	INFO	Listening on port 54315
+1564643024142	geckodriver	INFO	Listening on 127.0.0.1:54353
+1564643027162	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.M29xmz4L25S8
+1564643027181	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564643027217	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54361
+1564643028898	Marionette	INFO	Listening on port 54361
+1564714338070	geckodriver	INFO	Listening on 127.0.0.1:57467
+1564714341152	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.VVRR6Y5NMOt6
+1564714341175	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564714341219	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57475
+1564714343037	Marionette	INFO	Listening on port 57475
+1564714355625	geckodriver::marionette	ERROR	Failed to kill browser process
+ozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.hTxmHhl8pu2m
+1564714349216	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564714349241	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57503
+1564714350230	Marionette	INFO	Listening on port 57503
+1564714432014	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1565157653558	geckodriver	INFO	Listening on 127.0.0.1:63235
+1565157656722	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.a8yodJvzqD0S
+1565157656732	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565157656751	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63243
+1565157658180	Marionette	INFO	Listening on port 63243
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+1565157779479	geckodriver	INFO	Listening on 127.0.0.1:63531
+1565157782473	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.z13XxXDQpu9D
+1565157782481	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565157782500	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63540
+1565157783810	Marionette	INFO	Listening on port 63540
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+1565158298426	geckodriver	INFO	Listening on 127.0.0.1:63822
+1565158301426	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.IpUvPWMWoSFt
+1565158301440	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565158301461	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63830
+1565158302808	Marionette	INFO	Listening on port 63830
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+1565229761520	geckodriver	INFO	Listening on 127.0.0.1:51441
+1565229764555	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.190CdCLe6Ve4
+1565229764563	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565229764727	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51452
+1565229766235	Marionette	INFO	Listening on port 51452
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+1565231080447	geckodriver	INFO	Listening on 127.0.0.1:52039
+1565231083455	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.Ha6Ea9XGQYeQ
+1565231083463	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565231083627	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52048
+1565231085121	Marionette	INFO	Listening on port 52048
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+1565333121057	geckodriver	INFO	Listening on 127.0.0.1:60186
+1565333124087	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.57ESSkifo4Yk
+1565333124095	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565333124110	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60194
+1565333125491	Marionette	INFO	Listening on port 60194
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+1565333297074	geckodriver	INFO	Listening on 127.0.0.1:60463
+1565333300077	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.NKZ2k8GTlyjB
+1565333300089	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565333300108	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60471
+1565333301406	Marionette	INFO	Listening on port 60471
+JavaScript error: resource://gre/components/SanityTest.js, line 65: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+1565334340700	geckodriver	INFO	Listening on 127.0.0.1:60832
+1565334343709	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.HomeLcuiUQ4c
+1565334343718	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565334343736	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60840
+1565334345019	Marionette	INFO	Listening on port 60840
+1565334395177	geckodriver	INFO	Listening on 127.0.0.1:60881
+1565334398190	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.j3z6Ra3tcEq3
+1565334398200	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565334398223	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60889
+1565334399510	Marionette	INFO	Listening on port 60889
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+1565589213327	geckodriver	INFO	Listening on 127.0.0.1:65140
+1565589216213	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.7Qu6CjquEKKO
+1565589216222	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565589216300	geckodriver::marionette	INFO	Connecting to Marionette on localhost:65149
+1565589217974	Marionette	INFO	Listening on port 65149
+1565589327455	geckodriver	INFO	Listening on 127.0.0.1:65204
+1565589330454	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.V5dLjupNUnJH
+1565589330464	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565589330522	geckodriver::marionette	INFO	Connecting to Marionette on localhost:65214
+1565589332015	Marionette	INFO	Listening on port 65214
+1565589393271	geckodriver	INFO	Listening on 127.0.0.1:65257
+1565589396290	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.0Icx2yClH9Gg
+1565589396300	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1565589396355	geckodriver::marionette	INFO	Connecting to Marionette on localhost:65266
+1565589397843	Marionette	INFO	Listening on port 65266

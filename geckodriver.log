@@ -1,0 +1,293 @@
+1562739960196	geckodriver	INFO	Listening on 127.0.0.1:64092
+1562739963311	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.kRRXOyF0AgEo
+1562739963327	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1562739963353	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64101
+1562739964715	Marionette	INFO	Listening on port 64101
+1562739981436	geckodriver	INFO	Listening on 127.0.0.1:64170
+1562739984423	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.j1GsaxhF8PHM
+1562739984437	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1562739984462	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64182
+1562739985962	Marionette	INFO	Listening on port 64182
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: http://120.77.156.30:8080/zentao/user-login.html, line 3: TypeError: window.parent.document.body is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't convert null to object
+Full stack: GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: can't convert null to object
+Full stack: GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: can't convert null to object
+GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1562740095280	geckodriver	INFO	Listening on 127.0.0.1:64229
+1562740098286	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.UnQzhZQPbPRD
+1562740098303	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1562740098333	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64238
+1562740099701	Marionette	INFO	Listening on port 64238
+1562740117584	geckodriver	INFO	Listening on 127.0.0.1:64278
+1562740120564	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.vl9xkuF5rVPo
+1562740120579	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1562740120608	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64286
+1562740122055	Marionette	INFO	Listening on port 64286
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: http://120.77.156.30:8080/zentao/user-login.html, line 3: TypeError: window.parent.document.body is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't convert null to object
+Full stack: GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: can't convert null to object
+Full stack: GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: can't convert null to object
+GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1562740224531	addons.productaddons	WARN	File download failed: 0x80004004
+1562740224647	addons.productaddons	WARN	File download failed: 0x80040111
+1562740920761	geckodriver	INFO	Listening on 127.0.0.1:64382
+1562740923779	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.CWpN4eFGR4w8
+1562740923795	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1562740923820	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64390
+1562740925175	Marionette	INFO	Listening on port 64390
+1562740995660	addons.productaddons	WARN	File download failed: 0x80004004
+1562740995797	addons.productaddons	WARN	File download failed: 0x80040111
+mp\rust_mozprofile.BvOuNE48BtJ3
+1562740945458	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1562740945484	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64444
+1562740946840	Marionette	INFO	Listening on port 64444
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: http://120.77.156.30:8080/zentao/user-login.html, line 3: TypeError: window.parent.document.body is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't convert null to object
+Full stack: GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: can't convert null to object
+Full stack: GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: can't convert null to object
+GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1564650827810	geckodriver	INFO	Listening on 127.0.0.1:55508
+1564650830816	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.0g2ZbgyqG22s
+1564650830830	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564650830858	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55516
+1564650832008	Marionette	INFO	Listening on port 55516
+1564650848612	geckodriver	INFO	Listening on 127.0.0.1:55564
+1564650851606	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.RSD99O3dQl3m
+1564650851620	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564650851651	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55572
+1564650852831	Marionette	INFO	Listening on port 55572
+JavaScript error: resource://gre/components/nsPrompter.js, line 421: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: http://120.77.156.30:8080/zentao/user-login.html, line 3: TypeError: window.parent.document.body is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't convert null to object
+Full stack: GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: can't convert null to object
+Full stack: GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: can't convert null to object
+GeckoDriver.prototype.getTextFromDialog@chrome://marionette/content/driver.js:2768:7
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+TaskImpl@resource://gre/modules/Task.jsm:276:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:250:14
+Task_spawn@resource://gre/modules/Task.jsm:164:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1564650869176	geckodriver	INFO	Listening on 127.0.0.1:55616
+1564650872157	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.rpPntD6AGC7R
+1564650872171	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564650872194	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55624
+1564650873842	Marionette	INFO	Listening on port 55624
+1564652125562	geckodriver	INFO	Listening on 127.0.0.1:56244
+1564652128568	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.hBUu7oXZi0Ms
+1564652128583	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564652128612	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56252
+1564652129874	Marionette	INFO	Listening on port 56252
+1564652133621	geckodriver	INFO	Listening on 127.0.0.1:56272
+1564652136625	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.wl13ry0rmO2P
+1564652136638	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564652136666	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56282
+1564652138011	Marionette	INFO	Listening on port 56282
+Handler function threw an exception: TypeError: threadActor is null
+Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1723:1
+TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1660:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1723, column: 1
+console.error: 
+  Handler function threw an exception: TypeError: threadActor is null
+Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1723:1
+TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1660:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1723, column: 1
+1564652411873	geckodriver	INFO	Listening on 127.0.0.1:56387
+1564652414870	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.rvfGXemfconL
+1564652414883	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564652414906	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56395
+1564652416092	Marionette	INFO	Listening on port 56395
+1564652420178	geckodriver	INFO	Listening on 127.0.0.1:56413
+1564652423201	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.2YToXXsW9opq
+1564652423218	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564652423247	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56425
+1564652424413	Marionette	INFO	Listening on port 56425
+1564652606537	geckodriver	INFO	Listening on 127.0.0.1:56494
+1564652609542	mozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.dSExhgExOMaj
+1564652609557	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564652609588	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56502
+1564652610922	Marionette	INFO	Listening on port 56502
+1564652625463	geckodriver::marionette	ERROR	Failed to kill browser process
+ozprofile::profile	INFO	Using profile path C:\Users\DELL\AppData\Local\Temp\rust_mozprofile.uom6xzmAKBL4
+1564652618302	geckodriver::marionette	INFO	Starting browser E:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1564652618330	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56545
+1564652619602	Marionette	INFO	Listening on port 56545
